@@ -14,11 +14,11 @@ down0=os.path.join(result,'0')
 down1=os.path.join(result,'1')
 down2=os.path.join(result,'2')
 if not os.path.exists(down0):
-    os.mkdir(down0)
+    os.makedirs(down0)
 if not os.path.exists(down1):
-    os.mkdir(down1)
+    os.makedirs(down1)
 if not os.path.exists(down2):
-    os.mkdir(down2)
+    os.makedirs(down2)
 for sub_folder in sub_folders:
     input=os.path.join(result,sub_folder)
     for i in range(3):
@@ -26,7 +26,7 @@ for sub_folder in sub_folders:
         output_s=os.path.join(result,'%d'%i)
         output_s=os.path.join(output_s,sub_folder)
         if not os.path.exists(output_s):
-            os.mkdir(output_s)
+            os.makedirs(output_s)
         output_s=os.path.join(output_s,'depth_est')
         os.system('cp -r '+input_s+' '+output_s)
 
@@ -34,6 +34,6 @@ for sub_folder in sub_folders:
         output_s = os.path.join(result, '%d' % i)
         output_s = os.path.join(output_s, sub_folder)
         if not os.path.exists(output_s):
-            os.mkdir(output_s)
+            os.makedirs(output_s)
         output_s = os.path.join(output_s, 'confidence')
         os.system('cp -r ' + input_s + ' ' + output_s)

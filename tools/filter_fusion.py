@@ -10,10 +10,11 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 import numpy as np
 import time
+import sys
+sys.path.append("../")
 from datasets import find_dataset_def
 from models import *
 from utils import *
-import sys
 from datasets.data_io import read_pfm, save_pfm
 import cv2
 from plyfile import PlyData, PlyElement

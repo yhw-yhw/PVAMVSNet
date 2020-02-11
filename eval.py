@@ -137,7 +137,7 @@ def save_depth():
     # model
     if args.model == 'mvsnet':
         print('use MVSNet')
-        model = MVSNet(refine=args.refine, inverse_cv=args.inverse_cost_volume, fea_net=args.fea_net, cost_net=args.cost_net,
+        model = MVSNet(refine=args.refine, fea_net=args.fea_net, cost_net=args.cost_net,
                 refine_net=args.refine_net, origin_size=args.origin_size, cost_aggregation=args.cost_aggregation, dp_ratio=args.dp_ratio)
     else: 
         print('input pre-defined model')

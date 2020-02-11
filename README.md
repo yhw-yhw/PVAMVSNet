@@ -34,7 +34,7 @@ Create a log folder and a model folder in wherever you like to save the training
 ### MMP and Filter&Fusion
 * We utilize ``depthfusion_pytorch.py`` script for Fusion (from [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)).
 * Set ``use_mmp`` as ``True`` to use Multi-metric Pyramid Depth Aggregation in ``tools/postprocess.sh``.
-* Run ``./tools/postprocess.sh`` to generate final point cloud.
+* Enter to ``./tools`` directory, then run ``./postprocess.sh`` to generate final point cloud.
 
 
 ### Reproduce Benchmark results

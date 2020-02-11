@@ -382,8 +382,8 @@ class MVSNet(nn.Module):
 
         
         if self.cost_aggregation == 91: #input 3D cost volume -> 3D Reweight map
-            #self.volumegate = volumegatelight(32, kernel_size=3, dilation=[1,3,5,7], bias=True)
-            self.volumegate = volumegatelightgn(32, kernel_size=3, dilation=[1,3,5,7], bias=True)
+            self.volumegate = volumegatelight(32, kernel_size=3, dilation=[1,3,5,7], bias=True)
+            #self.volumegate = volumegatelightgn(32, kernel_size=3, dilation=[1,3,5,7], bias=True)
         elif self.cost_aggregation == 95: #input 3D cost volume -> 3D Reweight map
             self.volumegate = nn.ModuleList([
                 volumegatelight(32, kernel_size=3, dilation=[1,3,5,7], bias=True),
