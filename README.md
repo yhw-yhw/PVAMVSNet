@@ -58,8 +58,8 @@ Please ref to [leaderboard](https://www.tanksandtemples.org/details/691/).
 
 If you find this project useful for your research, please cite:
 ```
-@article{yao2018mvsnet,
-  title={MVSNet: Depth Inference for Unstructured Multi-view Stereo},
+@article{yi2019PVAMVSNET,
+  title={Pyramid Multi-view Stereo Net with Self-adaptive View Aggregation},
   author={Hongwei Yi, Zizhuang Wei, Mingyu Ding, Runze Zhang, Yisong Chen, Guoping Wang, Yu-Wing Tai},
   journal={{arxiv preprint arXiv:1912.03001},
   year={2019}
