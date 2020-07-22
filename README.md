@@ -1,10 +1,10 @@
 # PVA-MVSNet
 
 ## Update !!!
-Accepted by ECCV2020. We will update our latest codebase as soon as possible and we will quite appreciate for your patience and usage.
+Accepted by ECCV2020. We will update our latest codebase as soon as possible and we will quite appreciate for your patience and usage. [arxiv](https://arxiv.org/abs/1912.03001)
 
 ## About
-Official Code For Pyramid Multi-view Stereo Net with Self-adaptive View Aggregation, [arxiv](https://arxiv.org/pdf/1912.03001.pdf). 
+Official Code For Pyramid Multi-view Stereo Net with Self-adaptive View Aggregation.
 
 <img src="doc/architecture.png" width="600"> 
 
