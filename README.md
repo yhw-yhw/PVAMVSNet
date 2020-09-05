@@ -46,14 +46,14 @@ Create a log folder and a model folder in wherever you like to save the training
 |                       | Acc.   | Comp.  | Overall. |
 |-----------------------|--------|--------|----------|
 | MVSNet(D=256)         | 0.396  | 0.527  | 0.462    |
-| PVAMVSNet(D=192)      | 0.372  | 0.350  | 0.361    |
+| PVAMVSNet(D=192)      | 0.379  | 0.336  | 0.357    |
 
 PVA-MVSNet point cloud results with full post-processing are also provided: [DTU evaluation point clouds](https://pan.baidu.com/s/1R3loCM8pcNEWMfB14BUyNg) with extracting code zau7.
 
 #### Results on Tanks and Temples
 | Mean   | Family | Francis | Horse  | Lighthouse | M60    | Panther | Playground | Train |
 |--------|--------|---------|--------|------------|--------|---------|------------|-------|
-| 49.08  |	62.02 |	 40.71	|  37.70 |    9.10    | 54.03  |  51.01	 |   54.92    |	43.14 |
+| 54.46  |	69.36 |	 46.80	|  46.01 |    55.74   | 57.23  |  54.75  |   56.70    |	49.06 |
 
 Please ref to [leaderboard](https://www.tanksandtemples.org/details/691/).
 
