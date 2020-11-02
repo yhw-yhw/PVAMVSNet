@@ -1,10 +1,8 @@
 # PVA-MVSNet
 
-## Update !!!
-Accepted by ECCV2020. We will update our latest codebase as soon as possible and we will quite appreciate for your patience and usage. [arxiv](https://arxiv.org/abs/1912.03001)
-
 ## About
-Official Code For Pyramid Multi-view Stereo Net with Self-adaptive View Aggregation.
+This official repository is established for Pyramid Multi-view Stereo Net with Self-adaptive View Aggregation (ECCV2020)
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540732.pdf)
 
 <img src="doc/architecture.png" width="600"> 
 
@@ -61,11 +59,11 @@ Please ref to [leaderboard](https://www.tanksandtemples.org/details/691/).
 
 If you find this project useful for your research, please cite:
 ```
-@article{yi2019PVAMVSNET,
-  title={Pyramid Multi-view Stereo Net with Self-adaptive View Aggregation},
-  author={Hongwei Yi, Zizhuang Wei, Mingyu Ding, Runze Zhang, Yisong Chen, Guoping Wang, Yu-Wing Tai},
-  journal={{arxiv preprint arXiv:1912.03001},
-  year={2019}
+@inproceedings{yi2020PVAMVSNET,
+  title={Pyramid multi-view stereo net with self-adaptive view aggregation},
+  author={Yi, Hongwei and Wei, Zizhuang and Ding, Mingyu and Zhang, Runze and Chen, Yisong and Wang, Guoping and Tai, Yu-Wing},
+  booktitle={ECCV},
+  year={2020}
 }
 ```
 
